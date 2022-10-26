@@ -134,3 +134,6 @@ dmypy.json
 
 # Vscode
 .vscode/
+
+# Secrets
+Tokens.py
