@@ -1,0 +1,92 @@
+{
+    "callback_id": "view_1",
+    "title": {
+        "type": "plain_text",
+        "text": "New Incident",
+        "emoji": true
+    },
+    "submit": {
+        "type": "plain_text",
+        "text": "Submit",
+        "emoji": true
+    },
+    "close": {
+        "type": "plain_text",
+        "text": "Cancel",
+        "emoji": true
+    },
+    "blocks": [
+        {
+            "type": "section",
+            "text": {
+                "type": "plain_text",
+                "text": "Creating an Incident on Zenduty"
+            }
+        },
+        {
+            "type": "input",
+            "element": {
+                "type": "plain_text_input",
+                "action_id": "title-action"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Title"
+            }
+        },
+        {
+            "type": "input",
+            "element": {
+                "type": "plain_text_input",
+                "multiline": true,
+                "action_id": "summary-action"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Summary"
+            }
+        },
+        {
+            "type": "input",
+            "element": {
+                "type": "external_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select users"
+                },
+                "action_id": "escalation-policy-select-action"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Escalation Policy"
+            }
+        },
+        {
+            "type": "input",
+            "element": {
+                "type": "external_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select users"
+                },
+                "action_id": "service_select-action"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Services"
+            }
+        },
+        {
+            "type": "input",
+            "element": {
+                "type": "plain_text_input",
+                "action_id": "plain_text_input-action"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Number of users Impact "
+            }
+        }
+    ],
+    "type": "modal"
+}
