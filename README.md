@@ -1,6 +1,6 @@
 # SlackBot
 In this project, I Created a Slack bot with two-way integration with **[Zenduty](https://www.zenduty.com/)** and **[JIRA](https://www.atlassian.com/software/jira)** to automate **Incident management**.
-It can also be used for automating sending of messages, customized the Bot for custom reactions.
+It can also be used for automating messages. Also customized the Bot for custom reactions.
 
 ### What are Incidents ?
 An incident, in the context of information technology, is an event that is not part of normal operations that disrupts operational processes.
