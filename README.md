@@ -56,10 +56,10 @@ First thing first, let us create a bot in Slack UI.
 * After this, you will be redirected to another page where you can configure your app. Here we will make some changes.
 * Go to ‘**OAuth & Permissions**’. Here we will add the necessary scope and permissions for our bot. For now, we will add ‘**chat:write**’, ‘**groups:read**’, ‘**im:read**’, ‘**mpim:read**’, ‘**channels:manage**’, and ‘**channels:read**’ under ‘**Bot Token Scopes**’.
 * Once you have these scopes added, scroll up and click ‘**Install to workspace**’.
-* After the app is installed, you will be given a ‘**Bot User OAuth Token**’. Copy and save it somewhere, will come to use.
+* After the app is installed, you will be given a ‘**Bot User OAuth Token**’. Copy and save it to Tokens.py file as **SLACK_BOT_TOKEN**, will come to use.
 * Once you are done with all the above steps you can see the bot you created under ‘**Apps**’ in the selected Workspace.
 
-
+Keep 
 
 The bot we currently have cannot do anything, we need to add some functionality to it. For this part, we will use only **[slack_sdk](https://slack.dev/python-slack-sdk/)** to send messages and get some basic information about the channel.
 
