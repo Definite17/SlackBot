@@ -48,7 +48,7 @@ Your bot can send DMs, it can be mentioned by users, it can post messages or upl
 
 * **[Python Slack SDK](https://slack.dev/python-slack-sdk/)** (pip install slack_sdk), **[Slack-Bolt](https://slack.dev/bolt-python/concepts)** (pip install slack-bolt).
 
-### Creating and Installing our App
+### Creating and Installing Slack App(Bot) to your slack workSpace
 First thing first, let us create a bot in Slack UI.
 * Go to https://api.slack.com/ then "**Create an app**".
 * Select ‘From scratch’.
@@ -60,4 +60,7 @@ First thing first, let us create a bot in Slack UI.
 * Once you are done with all the above steps you can see the bot you created under ‘**Apps**’ in the selected Workspace.
 
 
-The bot we currently have cannot do anything, we need to add some functionality to it. For this part, we will use only Slack-SDK to send messages and get some basic information about the channel.
+
+The bot we currently have cannot do anything, we need to add some functionality to it. For this part, we will use only **[slack_sdk](https://slack.dev/python-slack-sdk/)** to send messages and get some basic information about the channel.
+
+
